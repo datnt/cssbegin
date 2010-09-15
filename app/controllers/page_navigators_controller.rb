@@ -4,5 +4,9 @@ class PageNavigatorsController < ActionController::Base
   
   def first_template
   end
+
+  def LayoutGala06
+    
+  end
   
 end
