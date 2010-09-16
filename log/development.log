@@ -640,3 +640,125 @@ SGFzaHsABjoKQHVzZWR7AA==--efe35830e0c81536fefce8f8dbf5af8fcb48b05f
 Rendering template within layouts/application
 Rendering page_navigators/mycolorbox
 Completed in 0.00700 (142 reqs/sec) | Rendering: 0.00400 (57%) | DB: 0.00000 (0%) | 200 OK [http://localhost/mycolorbox]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-16 11:43:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--efe35830e0c81536fefce8f8dbf5af8fcb48b05f
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:503:in `load'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:503:in `load'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:503:in `load'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/mongrel.rb:64
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-16 11:43:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--efe35830e0c81536fefce8f8dbf5af8fcb48b05f
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:503:in `load'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:503:in `load'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:503:in `load'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/mongrel.rb:64
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering E:/usr/src/ruby-wtest/InstantRails/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PageNavigatorsController#index (for 127.0.0.1 at 2010-09-16 11:50:27) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--efe35830e0c81536fefce8f8dbf5af8fcb48b05f
+  Parameters: {"action"=>"index", "controller"=>"page_navigators"}
+Rendering template within layouts/application
+Rendering page_navigators/index
+Completed in 0.01100 (90 reqs/sec) | Rendering: 0.00800 (72%) | DB: 0.00000 (0%) | 200 OK [http://localhost/page_navigators]
+
+
+Processing PageNavigatorsController#mycolorbox (for 127.0.0.1 at 2010-09-16 11:50:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--efe35830e0c81536fefce8f8dbf5af8fcb48b05f
+  Parameters: {"action"=>"mycolorbox", "controller"=>"page_navigators"}
+Rendering template within layouts/application
+Rendering page_navigators/mycolorbox
+Completed in 0.00700 (142 reqs/sec) | Rendering: 0.00400 (57%) | DB: 0.00000 (0%) | 200 OK [http://localhost/mycolorbox]
