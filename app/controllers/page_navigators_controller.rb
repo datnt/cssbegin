@@ -1,5 +1,6 @@
 class PageNavigatorsController < ActionController::Base
   def index
+    render :layout => "application"
   end
   
   def first_template
@@ -8,5 +9,12 @@ class PageNavigatorsController < ActionController::Base
   def LayoutGala06
     
   end
-  
+
+  def mycolorbox
+    render :layout => "application"
+  end
+
+  def myajaxcolorbox
+    
+  end
 end

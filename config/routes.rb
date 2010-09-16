@@ -3,6 +3,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :page_navigators
   map.first_tempate 'first_template', :controller => 'page_navigators', :action => 'first_template'
   map.LayoutGala06  'LayoutGala06', :controller => 'page_navigators', :action => 'LayoutGala06'
+  map.mycolorbox  'mycolorbox', :controller => 'page_navigators', :action => 'mycolorbox'
+  map.myajaxcolorbox  'myajaxcolorbox', :controller => 'page_navigators', :action => 'myajaxcolorbox'
 
   # The priority is based upon order of creation: first created -> highest priority.
 

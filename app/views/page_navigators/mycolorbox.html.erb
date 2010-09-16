@@ -1,0 +1,17 @@
+<h1>ColorBox Demonstration</h1>
+
+<h2>Elastic Transition</h2>
+<p><a href="/images/ohoopee1.jpg" rel="example1" title="Me and my grandfather on the Ohoopee.">Grouped Photo 1</a></p>
+<p><a href="/images/ohoopee2.jpg" rel="example1" title="On the Ohoopee as a child">Grouped Photo 2</a></p>
+<p><a href="/images/ohoopee3.jpg" rel="example1" title="On the Ohoopee as an adult">Grouped Photo 3</a></p>
+
+<h2>Load data for color box with ajax</h2>
+<p><a class='example5' href="/myajaxcolorbox" title="Homer Defined">Outside HTML (Ajax)</a></p>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("a[rel='example1']").colorbox();
+        $(".example5").colorbox();
+});
+</script>
